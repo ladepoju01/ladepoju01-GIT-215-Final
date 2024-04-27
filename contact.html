@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Lynelle Adepoju">
+        <meta name="description" content="GIT 215 Final - Contact page">
+        <link rel="icon" href="images/favicon.ico">
+        <title>Contact - Alpenruhe</title>
+        <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Alpenruhe Resort</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="images/swiss-valley.jpg" alt="swiss valley" class="hero-image">
+        <section>
+            <div class="container2">
+                <div class = text2>
+                    <h2>Contact Us</h2>
+
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                        Required fields marked with a *</p>
+
+                    <img src="images/swiss-peak.jpg" alt="Swiss Peak" width="350" height="455">
+                </div>
+                <div class="form">
+                        <form action="https://wp.zybooks.com/form-viewer.php" method="GET">
+                        <label for="name">Full Name:</label><br>
+                        <input type="text" id="name" name="name" required><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+
+                        <label for="phone_number">Phone number:</label><br>
+                        <input type="tel" id="phone_number" name="phone_number" required><br>
+
+                        <p>Preferred contact method:</p>
+                        <input type="radio" name="contact" id="preferred_tel" value="phone_number">Phone<br>
+                        <input type="radio" name="contact" value="email" id="preferred_email">Email <br>
+
+                        <label for="comments">Comments:</label>
+                        <textarea name="comments" id="comments"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </div>
+            </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2023 - Alpenruhe</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+
+</body>
+</html>
